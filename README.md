@@ -6,6 +6,36 @@ This project explores the cross-selling potential of vehicle insurance to health
 ## Summary
 This project aims to leverage machine learning to predict whether health insurance policyholders from the past year will also be interested in purchasing vehicle insurance. By addressing the current inefficiencies in customer outreach, the developed model will enable the insurance company to optimize its communication strategy, business model, and revenue. Key business questions addressed include the influence of vehicle age on insurance response, strategies to attract different generations, factors affecting disinterest in vehicle insurance, and identifying the best machine learning model for cross-selling vehicle insurance.
 
+# Data Description
+
+Dataset Link: https://www.kaggle.com/code/ayushikaushik/eda-oversampling-classification
+
+# Attribute information
+
+id : Unique ID for the customer
+
+Gender : Gender of the customer
+
+Age : Age of the customer
+
+Driving_License 0 : Customer does not have DL, 1 : Customer already has DL
+
+Region_Code : Unique code for the region of the customer
+
+Previously_Insured : 1 : Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance
+
+Vehicle_Age : Age of the Vehicle
+
+Vehicle_Damage :1 : Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.
+
+Annual_Premium : The amount customer needs to pay as premium in the year
+
+PolicySalesChannel : Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
+
+Vintage : Number of Days, Customer has been associated with the company
+
+Response : 1 : Customer is interested, 0 : Customer is not interested
+
 ## Feature Engineering & Selection For Machine Learning Process
 Encoding all the categorical features
 Checking correlation between dependent and independent variable
