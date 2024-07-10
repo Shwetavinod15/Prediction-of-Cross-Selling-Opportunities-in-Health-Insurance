@@ -37,18 +37,18 @@ Vintage : Number of Days, Customer has been associated with the company
 Response : 1 : Customer is interested, 0 : Customer is not interested
 
 ## Feature Engineering & Selection For Machine Learning Process
-Encoding all the categorical features
-Checking correlation between dependent and independent variable
-Feature Selection
+- Encoding all the categorical features
+- Checking correlation between dependent and independent variable
+- Feature Selection
 
 ## Model Building
-Splitting data into Training and Testing
-Apllying the SMOTE (Synthetic Minority Oversampling Technique) to the minority target since the data is imbalance
-Creating base model of classification algorithm ( Logistic Regression, Random Forest Clasifier)
-Check The Evaluation matrix for all the base model
-HyperParameter tuning
-Checking Evaluation Matrix for tuned Model
-Choose which model has the best recall score for this case
+- Splitting data into Training and Testing
+- Apllying the SMOTE (Synthetic Minority Oversampling Technique) to the minority target since the data is imbalance
+- Creating base model of classification algorithm ( Logistic Regression, Random Forest Clasifier)
+- Check The Evaluation matrix for all the base model
+- HyperParameter tuning
+- Checking Evaluation Matrix for tuned Model
+- Choose which model has the best recall score for this case
 
 ## Conclusion
 Starting from loading our dataset, we initially checked for null values and duplicates. Since there were none, no treatment was necessary.
